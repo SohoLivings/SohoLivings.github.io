@@ -1,0 +1,19 @@
+body {
+background: rgb(197, 221, 250);
+}
+img.fondo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+  }
+.logo {
+width: 175px;
+height: 175px;
+}
+.grilla {
+    text-align: center;
+    background: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
