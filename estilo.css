@@ -1,19 +1,122 @@
 body {
-background: rgb(197, 221, 250);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 10px;
+  color: rgb(9, 48, 77);
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  background: rgb(186, 221, 222);
 }
-img.fondo {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 80%;
-  }
+.cabecera a {
+  color: rgb(52, 52, 52);
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
 .logo {
-width: 175px;
-height: 175px;
+  width: 14.5vw;
 }
-.grilla {
+
+.barra-navegacion{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.accesos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1.7vw;
+  color: rgb(9, 48, 77);
+}
+.menu ul li a:hover {
+  font-weight:700;
+}
+.ig {
+  width: 4vw;
+}
+.ig:hover {
+  width: 4.3vw;
+}
+
+.fb {
+  width: 4vw;
+}
+.fb:hover {
+  width: 4.3vw;
+}
+.mail {
+  width: 3.6vw;
+}
+.mail:hover {
+  width: 3.9vw;
+}
+
+.cuerpo {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+h1{
+  font-size: 3vw;
+ 
+}
+.text-especial{
     text-align: center;
-    background: chartreuse;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    font-size: 1.5vw;
+  }
+.img-fondo {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  width: 50%;
 }
+
+
+.btn-presu {
+  display:inline-block;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-align:center;
+  transition: all 0.2s;
+  text-decoration: none;
+  padding: 1em 3em;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 100vmax;
+  color: rgb(255, 255, 255);
+  border: 4px solid #7e74a4;;
+  background: #4f38a4;
+  }
+.btn-presu:hover{
+  background: transparent;
+  border: 4px solid #4f38a4;
+  color: #404043;
+  }
+  @media all and (max-width:30em){
+.btn-presu{
+  display:block;
+  margin:0.2em auto;
+   }
+  }
