@@ -1,0 +1,149 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  color: rgb(9, 48, 77);
+  margin: 0 auto;
+  background: rgb(186, 221, 222);
+}
+
+
+.logo {
+width: 90%;  
+min-width: 120px;
+padding: 1em 0;
+}
+
+.barra-navegacion{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+
+.menu ul {
+  
+}
+.menu ul li {
+  display: inline-flex;
+  text-align: center;  
+  padding: 0 1.5rem;
+
+}
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 150%;
+  color: rgb(9, 48, 77);
+  font-weight: 700;
+  border: none;
+  
+  border-radius: 100vmax;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align:center;
+  margin:0 0.3em 0.3em 0;
+  
+}
+.menu ul li a:hover {
+  color: rgb(254, 254, 254);
+  font-weight: 700;
+  background: #4a4aa4;
+  
+  border-radius: 100vmax;
+  transition: all 0.4s;  
+  
+}
+.ig {
+  width: 4vw;
+  min-width: 40px;
+}
+.ig:hover {
+  background: #8e8ed0;
+  border: none;
+  border-radius: 100vmax;
+  transition: all 0.3s;  
+
+}
+
+.fb {
+  width: 4vw;
+  min-width: 40px;
+
+}
+.fb:hover {
+  background: #8e8ed0;
+  border: none;
+  border-radius: 100vmax;
+  transition: all 0.3s;  
+  
+}
+.mail {
+  width: 4vw;
+  min-width: 40px;
+
+}
+.mail:hover {
+  background: #8e8ed0;
+  border: none;
+  border-radius: 100vmax;
+  transition: all 0.3s;  
+
+}
+
+.cuerpo {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  
+}
+.text-especial{
+  text-align: center;
+  padding: 0 3em; 
+}
+h1{
+  font-family: 'Rouge Script', cursive;
+  font-size: calc(35px + 1.5vw);  
+  font-weight: 700;
+}
+p {
+  font-family: 'Rouge Script', cursive;
+  font-size: calc(16px + 1vw); 
+}
+
+
+.img-fondo {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+
+.btn-presu {
+  font-family: 'Roboto', sans-serif;
+  display:inline-block;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-align:center;
+  transition: all 0.2s;
+  text-decoration: none;
+  padding: 0.5em 3em;
+  font-weight: 700;
+  font-size: calc(16px + 0.5vw);
+  border-radius: 100vmax;
+  color: rgb(255, 255, 255);
+  border: 4px solid #7e74a4;;
+  background: #4a4aa4;
+  }
+.btn-presu:hover{
+  background: transparent;
+  border: 4px solid #4f38a4;
+  color: #4a4aa4;
+  }
+  @media all and (max-width:30em){
+.btn-presu{
+  display:block;
+  margin:0.2em auto;
+   }
+  }
