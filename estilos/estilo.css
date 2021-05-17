@@ -14,13 +14,15 @@ padding: 1em 0;
 
 .barra-navegacion{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   
   }
-
-.menu ul {
-  
+.redes {
+  margin: 2em 0;
+}
+.accesos {
+  margin: 0.8em 0;
 }
 .menu ul li {
   display: inline-flex;
@@ -108,14 +110,12 @@ h1{
 }
 p {
   font-family: 'Rouge Script', cursive;
-  font-size: calc(16px + 1vw); 
+  font-size: calc(16px + 1.2vw); 
 }
 
 
 .img-fondo {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
+  width: 80hw;
   
 }
 
