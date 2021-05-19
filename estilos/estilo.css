@@ -110,10 +110,9 @@ p {
   font-family: 'Rouge Script', cursive;
   font-size: calc(16px + 1.2vw); 
 }
-
-
-.img-fondo {
-  
+.img-fondo{
+  width: 50%;
+  height: 50%;
 }
 
 
