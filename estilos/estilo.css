@@ -2,7 +2,10 @@ body {
   font-family: 'Amatic SC', cursive;
   color: rgb(9, 48, 77);
   margin: 0 auto;
-  background: rgb(186, 221, 222);
+  background: url(../imagenes/fondocolores.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 
@@ -17,40 +20,35 @@ padding: 1em 0;
   align-items: flex-start;
   justify-content: space-around;
   
+  
   }
 .redes {
   margin: 2em 0;
 }
 .accesos {
-  margin: 0.8em 0;
+  margin: 2.5em 0;
 }
 .menu ul li {
   display: inline-flex;
   text-align: center;  
   padding: 0 1.5rem;
+  border-style: solid;
+  border: springgreen;
 
 }
 .menu ul li a {
   display: inline-block;
   text-decoration: none;
-  font-size: 150%;
+  font-size: calc(8px + 1vw); 
   color: rgb(9, 48, 77);
   font-weight: 700;
-  border: none;
   
-  border-radius: 100vmax;
-  padding: 0.5em;
-  box-sizing: border-box;
-  text-align:center;
-  margin:0 0.3em 0.3em 0;
   
 }
 .menu ul li a:hover {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   font-weight: 700;
-  background: #4a4aa4;
   
-  border-radius: 100vmax;
   transition: all 0.4s;  
   
 }
